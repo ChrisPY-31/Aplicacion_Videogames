@@ -1,0 +1,23 @@
+.home{
+    background:linear-gradient(0deg, rgba(0,0,0 ,0.5),rgba(0,0,0 ,0.5)), url('https://img.zonared.com/images/noticias/portada/52000/52103-h.jpg');
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.home__filtres{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 8rem;
+
+}
+.home__container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr );
+    gap: 5rem;
+}
+.loca{
+    font-size: 5rem;
+    color: white;
+}

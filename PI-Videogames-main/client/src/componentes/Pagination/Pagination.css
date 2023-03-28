@@ -1,0 +1,23 @@
+.paginado{
+    height: 10rem;
+    width: 50%;
+    margin: 0 auto;
+}
+.paginado__ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.paginado__link{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStskV3lZluZGOpbbZ15PWRkwgzpnrmBzI1og&usqp=CAU');
+    background-position:center center;
+    background-size: cover;
+    padding: 10px 15px;
+    border-radius: 10px;
+    
+}

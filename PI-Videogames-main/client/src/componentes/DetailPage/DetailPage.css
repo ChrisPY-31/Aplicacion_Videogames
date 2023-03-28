@@ -1,0 +1,87 @@
+
+.detail{
+    width: 95%;
+    margin: 0 auto;
+    height: 60rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.detail__container1{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.detail__container2{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgba(19, 23, 43, .7);
+    border-radius: 10px;
+    
+}
+.color{
+    color: white;
+
+}
+.detail__name{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.detail__genero ,.detail__plataformas , .detail__rating{
+    font-size: 1.6rem;
+    font-weight: lighter;
+    padding: 0 10px;
+
+}
+
+.detail__sesion{
+    background-color: rgb(51, 145, 51);
+    color: white;
+    height: 4rem;
+    width: 30rem;
+    border: unset;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.detail__juego{
+    position:absolute;
+    font-size: 2.4rem;
+    color: white;
+    font-weight: lighter;
+    top: 27rem;
+}
+.detail__image{
+    height: 25rem;
+    width: 20rem;
+    border-radius: 10px;
+
+}
+.detail__description{
+    font-size: 1.6rem;
+    color: white;
+    font-weight: lighter;
+    line-height: 1.7;
+    width: 70%;
+}
+
+.detail__cuau{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20rem;
+    height: 18rem;
+}
+.detail__publicado{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+}
+.detail__parrafo{
+    font-size: 1.6rem;
+    color: white;
+    font-weight: lighter;
+}

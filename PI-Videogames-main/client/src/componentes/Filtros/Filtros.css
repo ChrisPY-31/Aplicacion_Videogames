@@ -1,0 +1,17 @@
+.filtro{
+    width: 80%;
+    margin: 2rem auto;
+}
+.filtro__container{
+    display: flex;
+    justify-content: space-between;
+}
+.filtro__Buscar{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.filtro__Selecto{
+    width: 20rem;
+    height: 3rem;
+}

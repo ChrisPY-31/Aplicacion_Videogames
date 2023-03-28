@@ -1,0 +1,81 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background:linear-gradient(0deg, rgba(0,0,0 ,0.5),rgba(0,0,0 ,0.5)), url('https://s1.1zoom.me/big0/312/274921-Sepik.jpg');
+}
+.form__formulario{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+.form__container{
+    width: 40rem;
+    height: 65rem;
+    background-color: rgba(0, 0, 0, .4);
+    box-shadow: 1px 1px 5px 3px white;
+    border-radius: 5px;
+    margin-top: 5rem;
+}
+.form__array{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 24rem;
+    justify-content: space-between;
+}
+.input , textarea{
+    background-color: rgba(0, 0, 0, .4);
+    border: none;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #f00;
+    outline: none;
+    color: white;
+    height: 4rem;
+}
+
+
+.letra{
+    color: white;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+.form__Select {
+    height: 2.5rem;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+}
+.form__h3{
+    font-size: 1.6rem;
+    color: white;
+}
+.form__plataforms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.form__btn{
+    height: 3rem;
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 5px;
+    background: rgba(0,0,0 ,0.5);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form__btn:hover{
+    background: rgba(0,0,0 ,0.8);
+
+}
+.cautemoc{
+    font-size: 1.6rem;
+    color: white;
+}

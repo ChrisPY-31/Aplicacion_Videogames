@@ -1,0 +1,32 @@
+.error{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.error__container{
+    background-color: rgb(253, 255, 255);
+    height: 25rem;
+    width: 25rem;
+    position: absolute;
+    border-radius: 20px;
+}
+.cerrar__error{
+    width: 80%;
+    height: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.cerrar__image {
+    height: 6rem;
+    width: 6rem;
+}
+.cerrar__campos{
+    text-align: center;
+    color:black;
+    font-weight: lighter;
+}
